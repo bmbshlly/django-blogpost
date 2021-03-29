@@ -1,1 +1,1 @@
-# https://django-blogpost.herokuapp.com/
+# https://django-blogpost.herokuapp.com
