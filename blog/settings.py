@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'nzxgax(wvey3$-(==@6f4gzj1solm#n2afxfg-p^@q_4b4^1!v'
 
 
-AWS_ACCESS_KEY_ID = 'AKIAVTSOXW4C2N65RTOY'
-AWS_SECRET_ACCESS_KEY = 'N1hr9SzvnxjDg6cH15jEU0ZDbidGGqiRLU0zhmde'
-AWS_STORAGE_BUCKET_NAME = "django-blogpost"
+AWS_ACCESS_KEY_ID = ** #use your AWS ID
+AWS_SECRET_ACCESS_KEY = ** #use your Access Key
+AWS_STORAGE_BUCKET_NAME = "django-blogpost" #replace with your S3 bucket name
 AWS_S3_FILE_OVERWRITE = False
 AWS_DEFAULT_ACL = None
 DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
@@ -35,7 +35,7 @@ AWS_S3_REGION_NAME = "ap-south-1"
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["django-blogpost.herokuapp.com"]
+ALLOWED_HOSTS = ["django-blogpost.herokuapp.com", " http://localhost:8000"] #replace with your port number
 
 
 # Application definition
@@ -148,8 +148,8 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'bmbshelly'
-EMAIL_HOST_PASSWORD = 'bxjwtedoqzpiwril'
+EMAIL_HOST_USER = ** #use your mail Id
+EMAIL_HOST_PASSWORD = ** #use your mail password
 
 
 django_heroku.settings(locals())
