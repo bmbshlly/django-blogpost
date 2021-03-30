@@ -13,9 +13,9 @@ Application uses PostgreSQL(relation database) to store user information and the
 - [AWS](https://aws.amazon.com) - S3 bucket, IAM.
 
 ## Key features:
-- Authentication(register, login, logout)
+- Authentication (register, login, logout)
 - Reset password via SMTP (mail received with reset password link!)
-- Create, update, delete post with timestamp(only author can edit)
+- Create, update, delete post with timestamp (only author can edit)
 - Pagination (per page 5 post) - navigation to first, previous 3, current, next 3 and last page in the bottom
 - Profile update with picture
 - View all post by a user in page.
