@@ -2,34 +2,27 @@
 
 # Introduction
 
-Blogpost is a web application backed by Django where every user can creates, updates and deletes post on the feed. New users can set profile picture(update later). Users can reset password via registered email. Application uses postreg(relation database) to store user information and their blogs. AWS is used to store static files(profile picture).
+Blogpost is a web application backed by Django where every user can creates, updates and deletes post on the feed. New users can set profile picture(update later). Users can reset password via registered email. Application uses postreg(relation database) to store user information and their blogs. AWS is used to store static files(profile picture). Heroku is used for deloyment.
 
-- #[Tools](#Tools):
-- [User Guide](https://github.com/bmbshlly/django-blogpost/blob/main/README.md#whats-included) - How to develop apps created with this starter project
-- [Contributing Guide](https://github.com/MLH/mlh-hackathon-flask-starter/blob/master/docs/CONTRIBUTING.md) - How to contribute to the project
-
-# <a name='installation-guide'>Installation Guide</a>
-
-This project requires the following tools:
-
-- Python - The programming language used by Flask.
-- PostgreSQL - A relational database system.
-- Virtualenv - A tool for creating isolated Python environments.
-
-To get started, install Python and Postgres on your local computer if you don't have them already. A simple way for Mac OS X users to install Postgres is using [Postgres.app](https://postgresapp.com/). You can optionally use another database system instead of Postgres, like [SQLite](http://flask.pocoo.org/docs/1.0/patterns/sqlite3/).
+# Tools:
+- [Bootstap](https://getbootstrap.com) - A CSS framework.
+- [Django](https://www.djangoproject.com) - Backend framework in python.
+- [PostgreSQL](https://www.postgresql.org) - A relational database system.
+- [Heroku](https://www.heroku.com) - Deloyment.
+- [AWS](https://aws.amazon.com) - S3 bucket.
 
 ## Getting Started
 
-**Step 1. Clone the code into a fresh folder**
+**Step 1: Clone the code into a fresh folder**
 
 ```
-$ git clone https://github.com/MLH/mlh-hackathon-flask-starter.git
-$ cd mlh-hackathon-flask-starter
+$ git clone https://github.com/bmbshlly/django-blogpost.git
+$ cd django-blogpost
 ```
 
-**Step 2. Create a Virtual Environment and install Dependencies.**
+**Step 2: Create a Virtual Environment and install Dependencies**
 
-Create a new Virtual Environment for the project and activate it. If you don't have the `virtualenv` command yet, you can find installation [instructions here](https://virtualenv.readthedocs.io/en/latest/). Learn more about [Virtual Environments](http://flask.pocoo.org/docs/1.0/installation/#virtual-environments).
+Create a new Virtual Environment for the project and activate it. If you don't have the `virtualenv` command yet, you can find installation [instructions here](https://virtualenv.readthedocs.io/en/latest/).
 
 ```
 $ virtualenv venv
@@ -42,49 +35,15 @@ Next, we need to install the project dependencies, which are listed in `requirem
 (venv) $ pip install -r requirements.txt
 ```
 
-**Step 3: Create an app on GitHub**
-
-Head over to [GitHub OAuth apps](https://github.com/settings/developers) and create a new OAuth app. Name it what you like but you'll need to specify a callback URL, which should be something like:
-
-```
-http://localhost:5000/auth/callback/github
-```
-
-The default port for Flask apps is `5000`, but you may need to update this if your setup uses a different port or if you're hosting your app somewhere besides your local machine.
-
-**Step 4: Setup your database**
-
-You need to be able to connect to a database either on your own computer (locally) or through a hosted database. You can [install Postgres locally](http://www.postgresqltutorial.com/install-postgresql/) and [connect to it](http://www.postgresqltutorial.com/connect-to-postgresql-database/) to provide the database for your app.
-
-You will need to know the connection URL for your application which we will call `DATABASE_URL` in your environment variables. Here is an example:
-
-```
-postgresql://localhost:5432/mlh-hackathon-starter-flask
-```
-
-**Step 5: Update environment variables and run the Server.**
-
-Create a new file named `.env` by duplicating `.env.example`. Update the new file with the GitHub credentials. It should look similar to this:
-
-```
-# .env file
-DATABASE_URL="[INSERT_DATABASE_URL]"
-GITHUB_CLIENT_ID="[INSERT_CLIENT_ID]"
-GITHUB_CLIENT_SECRET="[INSERT_CLIENT_SECRET]"
-```
-
-You replace the GitHub credentials here and update the database URL. Learn more about the required [Environment Variables here](https://github.com/MLH/mlh-hackathon-flask-starter/blob/master/docs/USER_GUIDE.md#environment-variables).
+**Step 3: Run application**
 
 Now we're ready to start our server which is as simple as:
 
 ```
-(venv) $ flask run
+(venv) $ python manage.py runserver
 ```
 
-Open http://localhost:5000 to view it in your browser.
+Open http://localhost:8000 (port number is prompted) to view it in your browser.
 
 The app will automatically reload if you make changes to the code.
-You will see the build errors and warnings in the console.
-
-# What's Included?
-
+You will see the build errors and warnings in the console.(DEBUG = True)
