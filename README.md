@@ -2,8 +2,8 @@
 
 # Introduction
 
-Blogpost is a web application backed by Django where every user can create, update and delete post on the feed(with timestamp). New users can set profile picture(also update later). Users can reset password via registered e-mail.
-Application uses postreg(relation database) to store user information and their blogs. AWS is used to store static files(profile picture). Heroku is used for deloyment.
+Blogpost is a web application backed by Django where every user can create, update and delete post on the feed(with timestamp). New users can set profile picture(also update later). Users can reset password via registered e-mail.  
+Application uses PostgreSQL(relation database) to store user information and their blogs. AWS is used to store static files(profile picture). Heroku is used for deloyment.
 
 ## Tools:
 - [Bootstap](https://getbootstrap.com) - A CSS framework.
