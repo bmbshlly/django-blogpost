@@ -1,8 +1,10 @@
 ### [Live Demo](https://django-blogpost.herokuapp.com)
+
 # Introduction
+
 Blogpost is a web application backed by Django where every user can creates, updates and deletes post on the feed. New users can set profile picture(update later). Users can reset password via registered email. Application uses postreg(relation database) to store user information and their blogs. AWS is used to store static files(profile picture).
 
-- [Installation Guide](#installation-guide) - How to get started with a new Flask app
+- #[Tools](#Tools):
 - [User Guide](https://github.com/bmbshlly/django-blogpost/blob/main/README.md#whats-included) - How to develop apps created with this starter project
 - [Contributing Guide](https://github.com/MLH/mlh-hackathon-flask-starter/blob/master/docs/CONTRIBUTING.md) - How to contribute to the project
 
@@ -86,17 +88,3 @@ You will see the build errors and warnings in the console.
 
 # What's Included?
 
-- [Flask](http://flask.pocoo.org/) - A microframework for Python web applications
-- [Flask Blueprints](http://flask.pocoo.org/docs/1.0/blueprints/) - A Flask extension for making modular applications
-- [Flask-SQLAlchemy](http://flask-sqlalchemy.pocoo.org/2.3/) - A Flask extension that adds ORM support for your data models.
-- [Werkzeug](http://werkzeug.pocoo.org/) - A Flask framework that implements WSGI for handling requests.
-- [Bootstrap 4](https://getbootstrap.com/) - An open source design system for HTML, CSS, and JS.
-- [Jinja2](http://jinja.pocoo.org/docs/2.10/) - A templating language for Python, used by Flask.
-
-# Code of Conduct
-
-We enforce a Code of Conduct for all maintainers and contributors of this Guide. Read more in [CONDUCT.md](https://github.com/MLH/mlh-hackathon-flask-starter/blob/master/docs/CONDUCT.md).
-
-# License
-
-The Hackathon Starter Kit is open source software [licensed as MIT](https://github.com/MLH/mlh-hackathon-flask-starter/blob/master/LICENSE.md).
