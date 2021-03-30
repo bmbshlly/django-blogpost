@@ -12,6 +12,12 @@ Application uses PostgreSQL(relation database) to store user information and the
 - [Heroku](https://www.heroku.com) - Deloyment.
 - [AWS](https://aws.amazon.com) - S3 bucket.
 
+## Key features:
+-
+-
+-
+-
+
 ## Getting Started
 
 **Step 1: Clone the code into a fresh folder**
