@@ -1,8 +1,6 @@
 ### [Live Demo](https://django-blogpost.herokuapp.com)
-
 # Introduction
-
-StalkStock is a web application built in ReactJS to help new traders enter the trading world by allowing them to trade stocks in realtime using the virtual currency provided on signup. Users can bookmark their favourite stocks and observe them. StalkStock shows stock with realtime data with news related to them and various important terms related to them.
+Blogpost is a web application backed by Django where every user can creates, updates and deletes post on the feed. New users can set profile picture(update later). Users can reset password via registered email. Application uses postreg(relation database) to store user information and their blogs. AWS is used to store static files(profile picture).
 
 - [Installation Guide](#installation-guide) - How to get started with a new Flask app
 - [User Guide](https://github.com/bmbshlly/django-blogpost/blob/main/README.md#whats-included) - How to develop apps created with this starter project
