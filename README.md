@@ -5,7 +5,7 @@
 Blogpost is a web application backed by Django where every user can create, update and delete post on the feed(with timestamp). New users can set profile picture(also update later). Users can reset password via registered e-mail.  
 Application uses PostgreSQL(relation database) to store user information and their blogs. AWS is used to store static files(profile picture). Heroku is used for deloyment.
 
-<a href="https://django-blogpost.herokuapp.com"><img src="https://github.com/bmbshlly/django-blogpost/blob/main/giphy.gif" width="480" height="270"></a>
+[<img src="https://github.com/bmbshlly/django-blogpost/blob/main/giphy.gif" width="480" height="270">](https://django-blogpost.herokuapp.com)
 
 ## Tools:
 - [Bootstrap](https://getbootstrap.com) - A CSS framework.
@@ -22,7 +22,7 @@ Application uses PostgreSQL(relation database) to store user information and the
 - Profile update with picture
 - View all post by a user in page.
 
-[<img src="https://github.com/bmbshlly/django-blogpost/blob/main/giphy.gif" width="480" height="270">](https://getbootstrap.com)
+
 
 ## Getting Started
 
@@ -61,4 +61,4 @@ Open http://localhost:8000 (port number is prompted) to view it in your browser.
 The app will automatically reload if you make changes to the code.
 You will see the build errors and warnings in the console.(DEBUG = True)
 
-Try hosted app [here](https://django-blogpost.herokuapp.com)
+Try hosted app [here.](https://django-blogpost.herokuapp.com)
