@@ -8,7 +8,7 @@ Application uses PostgreSQL(relation database) to store user information and the
 <a href="https://django-blogpost.herokuapp.com"><img src="https://github.com/bmbshlly/django-blogpost/blob/main/giphy.gif" width="480" height="270"></a>
 
 ## Tools:
-- [Bootstap](https://getbootstrap.com) - A CSS framework.
+- [Bootstrap](https://getbootstrap.com) - A CSS framework.
 - [Django](https://www.djangoproject.com) - Backend framework in python.
 - [PostgreSQL](https://www.postgresql.org) - A relational database system.
 - [Heroku](https://www.heroku.com) - Deloyment.
@@ -21,6 +21,8 @@ Application uses PostgreSQL(relation database) to store user information and the
 - Pagination (per page 5 post) - navigation to first, previous 3, current, next 3 and last page in the bottom
 - Profile update with picture
 - View all post by a user in page.
+
+[<img src="https://github.com/bmbshlly/django-blogpost/blob/main/giphy.gif" width="480" height="270">](https://getbootstrap.com)
 
 ## Getting Started
 
@@ -58,3 +60,5 @@ Open http://localhost:8000 (port number is prompted) to view it in your browser.
 
 The app will automatically reload if you make changes to the code.
 You will see the build errors and warnings in the console.(DEBUG = True)
+
+Try hosted app [here](https://django-blogpost.herokuapp.com)
