@@ -6,6 +6,7 @@ Blogpost is a web application backed by Django where every user can create, upda
 Application uses PostgreSQL(relation database) to store user information and their blogs. AWS is used to store static files(profile picture). Heroku is used for deloyment.
 
 [<img src="https://github.com/bmbshlly/django-blogpost/blob/main/giphy.gif" width="480" height="270">](https://django-blogpost.herokuapp.com)
+<img src="https://github.com/bmbshlly/django-blogpost/blob/main/reset_pass.png" width="480" height="270">
 
 ## Tools:
 - [Bootstrap](https://getbootstrap.com) - A CSS framework.
