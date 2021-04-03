@@ -14,6 +14,7 @@ Application uses PostgreSQL(relation database) to store user information and the
 - [PostgreSQL](https://www.postgresql.org) - A relational database system.
 - [Heroku](https://www.heroku.com) - Deloyment.
 - [AWS](https://aws.amazon.com) - S3 bucket, IAM.
+- [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) - Let browser to access AWS bucket.
 
 ## Key features:
 - Authentication (register, login, logout)
