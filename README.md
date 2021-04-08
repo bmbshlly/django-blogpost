@@ -9,19 +9,19 @@ Application uses PostgreSQL(relation database) to store user information and the
 <img src="https://github.com/bmbshlly/django-blogpost/blob/main/reset_pass.png" width="480" height="270">
 
 ## Tools:
-- [Bootstrap](https://getbootstrap.com) - A CSS framework.
-- [Django](https://www.djangoproject.com) - Backend framework in python.
-- [PostgreSQL](https://www.postgresql.org) - A relational database system.
-- [Heroku](https://www.heroku.com) - Deloyment.
-- [AWS](https://aws.amazon.com) - S3 bucket, IAM.
-- [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) - Let browser to access AWS bucket.
+- [Bootstrap](https://getbootstrap.com) - A CSS framework
+- [Django](https://www.djangoproject.com) - Backend framework in python
+- [PostgreSQL](https://www.postgresql.org) - A relational database system
+- [Heroku](https://www.heroku.com) - Deloyment
+- [AWS](https://aws.amazon.com) - S3 bucket, IAM
+- [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) - Let browser to access AWS bucket
 
 ## Key features:
-- Authentication (register, login, logout)
-- Reset password via SMTP (mail received with reset password link!)
-- Create, update, delete post with timestamp (only author can edit)
-- Pagination (per page 5 post) - navigation to first, previous 3, current, next 3 and last page in the bottom
-- Profile update with picture
+- Authentication. (register, login, logout)
+- Reset password via SMTP. (mail received with reset password link!)
+- Create, update, delete post with timestamp. (only author can edit)
+- Pagination (per page 5 post) - navigation to first, previous 3, current, next 3 and last page in the bottom.
+- Profile update with picture.
 - View all post by a user in page.
 
 
